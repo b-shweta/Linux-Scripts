@@ -1,7 +1,5 @@
 google.com
-nyatitest.serveo.net
 facebook.com
 
-https://nyatidev.serveo.net
+instagram.com
 
-https://nyatitest.com
