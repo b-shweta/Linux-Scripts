@@ -1,6 +1,7 @@
 #/bin/bash
 
 # script to check website URL is status (UP or DOWN)
+#modified script later as below script can't handle blank lines in input
 
 while IFS='' read -r line || [[ -n "$line" ]]; 
  
