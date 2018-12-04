@@ -1,0 +1,16 @@
+#!/bin/bash
+#script which takes backup from windows local to remote linux machine having ssh keys
+set -x
+pwd
+date +%d%b
+touch shweta.txt
+
+SRC=/C/Users/Public/Tally.ERP9/Data
+
+DEST=root@gamma.valueaddsofttech.com:/opt/Tally/Tally_Hourly_backup/
+
+rsync -av -e "ssh -p 4022" $SRC $DEST
+
+echo $SRC >> shweta.txt
+
+echo $DEST >> shweta.txt
